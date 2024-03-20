@@ -1,0 +1,170 @@
+html {
+
+}
+
+body {
+	background-color: #FF9BD2;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+header {
+	background-color: #D63484;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.logo{
+	color: #F8F4EC;
+	cursor: pointer;
+}
+
+.logo:hover {
+	color: #FF90C2;
+	transform: scale(1.2);
+	transition: all ease .5s;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	list-style: none;
+	padding-right: 30px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #F8F4EC;
+}
+
+nav li a:hover {
+	color: #FF90C2;
+	text-decoration: underline;
+	text text-underline-offset: 8px;
+}
+
+.hero img {
+	width: 450px;
+	height: 450px;
+}
+
+.title-hero {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.title-hero h1 {
+	color: #F8F4EC;
+}
+
+.image.hero img {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 2px 4px 10px greenyellow;
+}
+
+.image-hero img:hover {
+	transform: scale(.8);
+	transition: 2s;
+	align-items: center;
+}
+
+#about {
+	width: 90%;
+	margin: 0 outo;
+}
+
+#about h2 {
+	padding-top: 40px;
+	color: #FFF7F1;
+}
+
+hr {
+	width: 30%;
+}
+
+#product {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#product h2 {
+	padding-top: 40 px;
+	color: #FFF7F1;
+}
+
+.cards {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.card {
+    background-color:#FFF7F1;
+    width: 350px;
+    height: 200px;
+    border: 1px solid #FF90C2;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.container {
+    text-align: center;
+}
+
+.card a {
+	text-decoration: none;
+	color: hotpink;
+	padding: 10px 40px;
+	background-color: #lightpink;
+	margin-left: 105px;
+	border: 1px hotpink;
+    100border-radius: 12px;
+    box-shadow: 1px 2px 4px;
+}
+
+.card a:hover {
+	background-color: pink;
+	color: deeppink;
+}
+
+#contact {
+	width: 95%;
+	margin: 40px auto;
+	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+}
+
+.image-contact {
+	width: 50%;
+}
+
+.image-contact img {
+	width: 100%;
+	border-radius: 50%;
+}
